@@ -1,0 +1,15 @@
+<?php
+$students=["Alice","Bob","Charlie","Diana","Eve"];
+echo "Orginal Array:<br>";
+print_r($students);
+echo "<br><br>";
+asort($students);
+echo "Array Sorted In Ascending Order:<br>";
+print_r($students);
+echo "<br><br>";
+arsort($students);
+echo " Array Sorted In Descending Order:<br>";
+print_r($students);
+?>
+
+
